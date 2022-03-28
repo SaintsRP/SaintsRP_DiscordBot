@@ -1,0 +1,1 @@
+TOKEN = 'TOKEN HERE' # get your token from discord.com/developers
