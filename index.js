@@ -55,10 +55,10 @@ modules.forEach(function(module) {
     if (!message.member)
       message.member = await message.guild.fetchMember(message);
   
-    if (!message.content.startsWith(Prefix)) return;
+    if (!message.content.startsWith(prefix)) return;
   
     const args = message.content
-      .slice(Prefix.length)
+      .slice(prefix.length)
       .trim()
       .split(" ");
     const cmd = args.shift().toLowerCase();
